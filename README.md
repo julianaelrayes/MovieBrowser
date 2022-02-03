@@ -27,3 +27,7 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 
 ### Notes
 Describe any challenges encountered while building the app.
+In the beginning, I did not know how to create a new file for my "MoviesViewController." I asked
+for help and they told me to go to file/add new file/ and choose cocoa touch. My second problem was
+that I had a message error "Value of type 'UIImageView' has no member 'af_setImage'" which I solved
+by including "import AlamofireImage".
