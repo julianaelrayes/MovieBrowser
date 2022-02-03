@@ -21,13 +21,9 @@ Flix is an app that allows users to browse movies from the [The Movie Database A
 - [x] (1pt) Run your app on a real device.
 
 ### App Walkthrough GIF
-`TODO://` Add the URL to your animated app walkthough `gif` in the image tag below, `YOUR_GIF_URL_HERE`. Make sure the gif actually renders and animates when viewing this README. (🚫 Remove this paragraph after after adding gif)
 
-<img src="YOUR_GIF_URL_HERE" width=250><br>
+<img src="https://s5.ezgif.com/save/ezgif-5-dab2cd5f3d.gif" width=250><br>
 
 ### Notes
-Describe any challenges encountered while building the app.
-In the beginning, I did not know how to create a new file for my "MoviesViewController." I asked
-for help and they told me to go to file/add new file/ and choose cocoa touch. My second problem was
-that I had a message error "Value of type 'UIImageView' has no member 'af_setImage'" which I solved
-by including "import AlamofireImage".
+
+In the beginning, I did not know how to create a new file for my "MoviesViewController." I asked for help and they told me to go to file/add new file/ and choose cocoa touch. My second problem was that I had a message error "Value of type 'UIImageView' has no member 'af_setImage'" which I solved by including "import AlamofireImage".
