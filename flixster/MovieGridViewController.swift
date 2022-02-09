@@ -17,6 +17,10 @@ class MovieGridViewController: UIViewController, UICollectionViewDataSource, UIC
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        // Sets the title in the Navigation Bar on white
+        navigationController?.navigationBar.titleTextAttributes = [.foregroundColor: UIColor.white]
+        self.title = "Superhero"
+        
         collectionView.delegate = self
         collectionView.dataSource = self
         
