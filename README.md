@@ -2,44 +2,19 @@
 
 Flix is an app that allows users to browse movies from the [The Movie Database API](http://docs.themoviedb.apiary.io/#).
 
-## Flix Part 2
-
 ### User Stories
-
-#### REQUIRED (10pts)
-- [x] (5pts) User can tap a cell to see more details about a particular movie.
-- [x] (5pts) User can tap a tab bar button to view a grid layout of Movie Posters using a CollectionView.
-
-#### BONUS
-- [x] (2pts) User can tap a poster in the collection view to see a detail screen of that movie.
-- [ ] (2pts) In the detail view, when the user taps the poster, a new screen is presented modally where they can view the trailer.
+- [x] User sees an app icon on the home screen and a styled launch screen.
+- [x] User can view and scroll through a list of movies now playing in theaters.
+- [x] User can view the movie poster image for each movie.
+- [x] User can view the app on various device sizes and orientations.
+- [x] Run your app on a real device.
+- [x] User can tap a cell to see more details about a particular movie.
+- [x] User can tap a tab bar button to view a grid layout of Movie Posters using a CollectionView.
+- [x] User can tap a poster in the collection view to see a detail screen of that movie.
 
 ### App Walkthrough GIF
 ![](https://i.imgur.com/3pUpBr4.gif)
 
-### Notes
-It was difficult for me to link the trailers of the movies to a new viewController
-
----
-
-## Flix Part 1
-
-### User Stories
-
-#### REQUIRED (10pts)
-- [x] (2pts) User sees an app icon on the home screen and a styled launch screen.
-- [x] (5pts) User can view and scroll through a list of movies now playing in theaters.
-- [x] (3pts) User can view the movie poster image for each movie.
-
-#### BONUS
-- [x] (2pt) User can view the app on various device sizes and orientations.
-- [x] (1pt) Run your app on a real device.
-
-### App Walkthrough GIF
-
 ![](https://i.imgur.com/HHJ2IQr.gif) 
 
-### Notes
-
-In the beginning, I did not know how to create a new file for my "MoviesViewController." I asked for help and they told me to go to file/add new file/ and choose cocoa touch. My second problem was that I had a message error "Value of type 'UIImageView' has no member 'af_setImage'" which I solved by including "import AlamofireImage".
 
